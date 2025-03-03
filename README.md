@@ -3,7 +3,9 @@
 <h1>HTML &amp; CSS Practice - building Figma wireframes for lab</h1>
 
 <h2>Initialization</h2>
-First steps: trying to create initial styles that will apply to create the "Buttons & Cards" slide
+First steps: trying to create initial styles that will apply to create the "Buttons & Cards" slide:
+
+![alt text]()
 
 Could not figure out why the style sheet wasn't reading in the html file.Learned that the "rel" in link specifically refers to the file being a stylesheet.
 
