@@ -57,3 +57,31 @@ The first pass initialization on the HTML:
 ---
 
 <h2>Header See More Buttons</h2>
+
+Added relevant color changes to the two buttons at the top of page.
+
+Noticed similarites across all buttons (rounded corners, padding increase, transparent background for two buttons), research to learn that the CSS property to change is called "border-radius". Made adjustment to all buttons to reflect changes and some adjustments to the first "See More" button's different format (#first):
+
+``` CSS
+button {
+    background-color: transparent;
+    margin-right: 20px;
+    border-radius: 5px;
+    padding: 15px 40px 15px;
+}
+
+/*Buttons and Cards stylesheet*/
+#first {
+    background-color: black;
+    color: white;
+}
+```
+
+New view:
+
+![alt text](https://github.com/AshuraKuranata/html-css-lab-practice/blob/main/img-html/See%20More%20Buttons%20update.png)
+
+---
+
+<h2>Setting up Cards</h2>
+
