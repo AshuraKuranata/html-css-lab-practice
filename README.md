@@ -5,7 +5,7 @@
 <h2>Initialization</h2>
 First steps: trying to create initial styles that will apply to create the "Buttons & Cards" slide:
 
-![alt text]()
+![alt text](https://github.com/AshuraKuranata/html-css-lab-practice/blob/main/img-html/Buttons%20and%20Cards%20Lab%20Practice.png)
 
 Could not figure out why the style sheet wasn't reading in the html file.Learned that the "rel" in link specifically refers to the file being a stylesheet.
 
@@ -50,4 +50,10 @@ Began with a light copy of the expected elements for the page:
 </html>
 ```
 
+The first pass initialization on the HTML:
+
+![alt text](https://github.com/AshuraKuranata/html-css-lab-practice/blob/main/img-html/First%20pass%20HTML%20lab.png)
+
 ---
+
+<h2>Header See More Buttons</h2>
