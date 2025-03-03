@@ -7,12 +7,16 @@ div {
     margin-top: 40px;
 }
 
+section {
+    width: 680px;
+}
 .blackbox {
     position: absolute;
     height: 200px;
     width: 200px;
     background-color: black;
     color: white;
+    display: inline-block;
 }
 
 button {
@@ -47,12 +51,101 @@ button {
     color: black;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 16px;
+    font-weight: bold;
 }
 #seemore {
     margin-top: 0px;
     font-size: 12px;
+    font-weight: 100;
 }
 
 a {
     text-decoration: none;
+    color: black
+}
+
+.offsetbox {
+    position: absolute;
+    margin-left: 240px;
+    height: 300px;
+    width: 200px;
+    display: inline-block;
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    text-align: center;
+}
+
+#blackcircle {
+    position: relative;
+    margin: 0px;
+    margin-top: 10px;
+    height: 50px;
+    width: 50px;
+    border: 0px solid black;
+    border-radius: 25px;
+    background-color: black;
+}
+
+p.middletext {
+    position: relative;
+    margin: auto;
+    margin-top: 70px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 18px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold
+}
+
+p.middletext#subtitle {
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 100;
+}
+p.middletext#list {
+    margin-top: 0px;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+    opacity: 30%;
+    font-size: 12px;
+}
+
+li {
+    padding-bottom: 5px;
+}
+
+button#startnow {
+    position: fixed;
+    margin-top: 250px;
+    margin-left: 275px;
+    padding: 5px 35px;
+
+}
+.offsetbox#rightbox {
+    margin-left: 120px;
+    height: 300px;
+    width: 300px;
+    border: 0px solid black;
+    background-color: black;
+}
+p.thirdbox {
+    position: relative;
+    margin-top: 320px;
+    text-align: left;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+p.thirdbox#link {
+    position: relative;
+    margin-top: 15px;
+}
+a#thirdbox {
+    font-size: 18px;
 }

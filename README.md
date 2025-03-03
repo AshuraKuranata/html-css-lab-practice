@@ -99,3 +99,12 @@ Completed the first box!
 
 <h2>Getting other cards to align horizontally</h2>
 
+Set .offsetbox class as "position: absolute" which then allowed any future boxes added to automatically position themselves based on the absolute position from this section.
+
+Created second card inputs based on relative positioning of the offset box with paragraphs.
+
+"Start Now" button was improperly setting, aligned into second box based on fixed position.
+
+Third card easiest to set up.  Created new section based on absolute position, and aligned the third offset box in its own ID for the other items to relatively line up with.
+
+Finalized code, output is as seen in the HTML file.
