@@ -1,19 +1,12 @@
-# html-css-lab-practice
-
-<h1>HTML &amp; CSS Practice - building Figma wireframes for lab</h1>
-
-<h2>Initialization</h2>
-First steps: trying to create initial styles that will apply to create the "Buttons & Cards" slide
-
-Could not figure out why the style sheet wasn't reading in the html file.Learned that the "rel" in link specifically refers to the file being a stylesheet.
-
-``` HTML
-<link rel="stylesheet" href="./css/global.css">
-```
-
-Began with a light copy of the expected elements for the page:
-
-``` HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/global.css"> <!--Global Style-->
+    <link rel="stylesheet" href="./css/buttons-and-cards.css"> <!--Specific changes to buttons & cards-->
+</head>
 <body>
     <header>
         <button id="first">See More</button>
@@ -46,6 +39,3 @@ Began with a light copy of the expected elements for the page:
 
 </body>
 </html>
-```
-
----
