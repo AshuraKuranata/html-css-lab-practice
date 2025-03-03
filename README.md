@@ -83,5 +83,19 @@ New view:
 
 ---
 
-<h2>Setting up Cards</h2>
+<h2>Setting up Card</h2>
+
+Starting on the first card.  Running into a lot of issues related to understanding positioning, creating the objects within the HTML file to apply CSS changes.
+
+Initially tried to create a single object that would then have multiple boxes within it that I'd have to position relative to that.  Searched for different answers, realized it'd be easier to break the boxes out that were positioned relative to each other.
+
+Created the black box & a white box sectioned within it, utilized margins to properly position the object to the center. 
+
+Completed the first box!
+
+![alt text](https://github.com/AshuraKuranata/html-css-lab-practice/blob/main/img-html/First%20Card%20complete.png)
+
+---
+
+<h2>Getting other cards to align horizontally</h2>
 

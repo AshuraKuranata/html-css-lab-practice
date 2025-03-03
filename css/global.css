@@ -1,12 +1,58 @@
 body {
     background-color: #f2f2f2;
+    margin: 40px 40px 30px 40px;
+    display: inline-block;
 }
 div {
-    margin-right: 30px;
+    margin-top: 40px;
 }
+
+.blackbox {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    color: white;
+}
+
 button {
     background-color: transparent;
-    margin-right: 30px;
+    margin-right: 40px;
     border-radius: 5px;
     padding: 15px 40px 15px;
+}
+
+#first {
+    background-color: black;
+    color: white;
+}
+
+#whitebox {
+    margin: auto;
+    margin-top: 75px;
+    height: 50px;
+    width: 50px;
+    border-radius: 5px;
+    background-color: white;
+    color: black;
+}
+
+.writing {
+    margin-top: 75px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    background-color: white;
+    width: auto;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+#seemore {
+    margin-top: 0px;
+    font-size: 12px;
+}
+
+a {
+    text-decoration: none;
 }
